@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/info.css">
+    <title>iFood - Cadastro</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="navbar-logo" href="#"><img src="img/ifood-logo.svg" width="70px" height="70px" alt="ifood-logo"></a>
+    </nav>
+
+    <div class="float-container">
+
+        <form>
+            <fieldset>
+
+                <div>
+                    <h2>Informações da loja</h2>
+                    <p>Preencha abaixo as informações sobre a sua futura loja no iFood com os dados do seu negócio</p>
+                </div>
+
+                <div class="form nomeloja">
+                    <label for="nomeloja">Nome da loja (como aparecerá no app)</label>
+                    <input type="text" name="nomeloja" id="nomeloja" placeholder="Engenheiros do Açaí">
+                </div>
+
+                <div class="form telloja">
+                    <label for="telloja">Telefone ou celular da loja (como aparecerá no app)</label>
+                    <input type="num" name="telloja" id="telloja" maxlength="15" pattern="([0-9]{2})\ [0-9]{4,6}-[0-9]{3,4}" placeholder="(00) 00000-0000"/>
+                </div>
+                
+                <div class="form mercado">
+                    <label for="mercado"></label>
+                </div>
+                
+
+                <a class="btn" href="bank.html" type="submit">Continuar</a>
+
+            </fieldset>
+        </form>
+
+    </div>
+
+</body>
+</html>

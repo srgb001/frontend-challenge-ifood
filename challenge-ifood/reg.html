@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reg.css">
+    <title>iFood - Cadastro</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="navbar-logo" href="#"><img src="img/ifood-logo.svg" width="70px" height="70px" alt="ifood-logo"></a>
+    </nav>
+
+    <div class="float-container">
+
+        <form>
+            <fieldset>
+
+                <div>
+                    <h2>Endereço da loja</h2>
+                    <p>Preencha as informações de endereço da sua loja.</p>
+                </div>
+
+
+                <div>
+                    
+                </div>
+
+                <div class="form">
+                    <label for="name">CEP</label>
+                    <input type="number" name="CEP" id="CEP" placeholder="00000-000" pattern="[0-9]{5}-[0-9]{3}">
+                    <a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Descubra seu CEP</a></p>
+                </div>
+
+                <div class="form estado" style="float:left">
+                    <label for="estado">Estado</label>
+                    <select id="estado" name="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+
+                <div class="form cidade" style="float:right">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+
+                <div style="clear:both;">&nbsp;</div>
+
+                <div class="form bairro">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="bairro" id="bairro">
+                </div>
+
+                <div style="clear:both;">&nbsp;</div>
+
+                <div class="form endereco" style="float:left">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" name="endereco" id="endereco">
+                </div>
+
+                
+                <div class="form numad" style="float:right">
+                    <label for="cidade">Número</label>
+                    <input type="number" name="numad" id="numad">
+                </div>
+
+                <a class="btn" href="infoloja.html" type="submit">Continuar</a>
+
+            </fieldset>
+        </form>
+
+    </div>
+
+</body>
+</html>
