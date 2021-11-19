@@ -1,47 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
-
-*{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar{
-    max-height: 70px;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-logo{
-    margin-left: 10rem;
-}
-
-body{
-    height: 100vh;
-    background-image: url("bg/Frame.svg"), url("bg/bg.jpg");
-    background-position:left bottom, left bottom;
-    background-repeat: no-repeat;
-    background-color: #ccc;
-}
-
-h1{
-    font-size: 4rem;
-    font-family: 'Work Sans', sans-serif;
-    color: white;
-}
-
-h2{
-    margin-bottom: 0px;
-}
-
-h5{
-    color: white;
-}
-
-p{
-    color: black;
-    margin-bottom: 50px;
+body {
+    background-image: url(bg/Frame.svg),url(bg/bg.jpg);
 }
 
 .float-container{
@@ -52,14 +10,6 @@ p{
     width: 50%;
     float: left;
 }
-
-.float-form{
-    text-align: left;
-    padding: 30px;
-    width: 50%;
-    float: right;
-}
-
 
 .title{
     text-align: left;
@@ -80,51 +30,22 @@ fieldset{
     text-align: left;
 }
 
-.form label{
-    margin: .2em;
+.float-form{
+    text-align: left;
+    padding: 30px;
+    width: 50%;
+    float: right;
 }
 
-input, select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-sizing: border-box;
+.form label{
+    margin: .2em;
 }
 
 .form:focus{
     border: #EA1D2C;
 }
 
-.btn{
-    text-decoration: none;
-    text-align: center;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    background-color: #EA1D2C;
-    color: white;
-    border-radius: 8px;
-    font-weight: 500;
-    margin-top: 50px;
-}
-
-.btn:hover{
-    background-color: #DA5D69;
-    color: white;
-}
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1148px) {
+@media only screen and (max-width: 1024px) {
     body {
       width: 50%;
     }
